@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>WebView Example</title>
+    <script>
+        function sendMessageToFlutter() {
+          FlutterChannel.postMessage('Hello from WebView!');
+        }
+    </script>
+</head>
+<body>
+<h1>WebView Example</h1>
+<button onclick="sendMessageToFlutter()">Send Message</button>
+</body>
+</html>
